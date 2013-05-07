@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60A2E721702942F0041DEE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2E711702942F0041DEE4 /* UIKit.framework */; };
+		B60A2E741702942F0041DEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2E731702942F0041DEE4 /* Foundation.framework */; };
+		B60A2E761702942F0041DEE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2E751702942F0041DEE4 /* CoreGraphics.framework */; };
+		B60A2E7C1702942F0041DEE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B60A2E7A1702942F0041DEE4 /* InfoPlist.strings */; };
+		B60A2E7E1702942F0041DEE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A2E7D1702942F0041DEE4 /* main.m */; };
+		B60A2E821702942F0041DEE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A2E811702942F0041DEE4 /* AppDelegate.m */; };
+		B60A2E841702942F0041DEE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B60A2E831702942F0041DEE4 /* Default.png */; };
+		B60A2E86170294300041DEE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B60A2E85170294300041DEE4 /* Default@2x.png */; };
+		B60A2E88170294300041DEE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B60A2E87170294300041DEE4 /* Default-568h@2x.png */; };
+		B60A2E8B170294300041DEE4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B60A2E8A170294300041DEE4 /* ViewController.mm */; };
+		B60A2E8E170294300041DEE4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60A2E8C170294300041DEE4 /* ViewController.xib */; };
+		B60A2E9F1702949F0041DEE4 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2E9A170294790041DEE4 /* libZXingWidget.a */; };
+		B60A2EA1170294A80041DEE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EA0170294A80041DEE4 /* AVFoundation.framework */; };
+		B60A2EA3170294C70041DEE4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EA2170294C70041DEE4 /* AudioToolbox.framework */; };
+		B60A2EA5170294CE0041DEE4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EA4170294CE0041DEE4 /* CoreVideo.framework */; };
+		B60A2EA7170294D50041DEE4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EA6170294D50041DEE4 /* CoreMedia.framework */; };
+		B60A2EA9170294DB0041DEE4 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EA8170294DB0041DEE4 /* libiconv.dylib */; };
+		B60A2EAB170294E00041DEE4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EAA170294E00041DEE4 /* AddressBook.framework */; };
+		B60A2EAD170294E50041DEE4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60A2EAC170294E50041DEE4 /* AddressBookUI.framework */; };
+		B60A2EB41702E7690041DEE4 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A2EB31702E7690041DEE4 /* CustomViewController.m */; };
+		B65615371703DFB5009BEB75 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65615361703DFB5009BEB75 /* AssetsLibrary.framework */; };
+		B69EB500170570B300F87022 /* libqrencoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B69EB4FB1705708C00F87022 /* libqrencoder.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60A2E99170294790041DEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60A2E94170294780041DEE4 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		B60A2E9B170294790041DEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60A2E94170294780041DEE4 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
+			remoteInfo = ZXingTests;
+		};
+		B60A2E9D170294970041DEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60A2E94170294780041DEE4 /* ZXingWidget.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		B69EB4FA1705708C00F87022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69EB4F51705708C00F87022 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9672D35713BD662F0002B0E2;
+			remoteInfo = qrencoder;
+		};
+		B69EB4FC1705708C00F87022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69EB4F51705708C00F87022 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9621844115431DBA00447877;
+			remoteInfo = QRCodeEncoderDemo;
+		};
+		B69EB4FE170570AD00F87022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69EB4F51705708C00F87022 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9672D35613BD662F0002B0E2;
+			remoteInfo = qrencoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60A2E6E1702942F0041DEE4 /* ZXingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A2E711702942F0041DEE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B60A2E731702942F0041DEE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B60A2E751702942F0041DEE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B60A2E791702942F0041DEE4 /* ZXingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZXingDemo-Info.plist"; sourceTree = "<group>"; };
+		B60A2E7B1702942F0041DEE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B60A2E7D1702942F0041DEE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60A2E7F1702942F0041DEE4 /* ZXingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZXingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B60A2E801702942F0041DEE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60A2E811702942F0041DEE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60A2E831702942F0041DEE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B60A2E85170294300041DEE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B60A2E87170294300041DEE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B60A2E89170294300041DEE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B60A2E8A170294300041DEE4 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B60A2E8D170294300041DEE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B60A2E94170294780041DEE4 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B60A2EA0170294A80041DEE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B60A2EA2170294C70041DEE4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B60A2EA4170294CE0041DEE4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B60A2EA6170294D50041DEE4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B60A2EA8170294DB0041DEE4 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		B60A2EAA170294E00041DEE4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B60A2EAC170294E50041DEE4 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		B60A2EB21702E7690041DEE4 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		B60A2EB31702E7690041DEE4 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		B65615361703DFB5009BEB75 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B69EB4F51705708C00F87022 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = QRCodeEncoderObjectiveCAtGithub.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60A2E6B1702942F0041DEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69EB500170570B300F87022 /* libqrencoder.a in Frameworks */,
+				B65615371703DFB5009BEB75 /* AssetsLibrary.framework in Frameworks */,
+				B60A2EAD170294E50041DEE4 /* AddressBookUI.framework in Frameworks */,
+				B60A2EAB170294E00041DEE4 /* AddressBook.framework in Frameworks */,
+				B60A2EA9170294DB0041DEE4 /* libiconv.dylib in Frameworks */,
+				B60A2EA7170294D50041DEE4 /* CoreMedia.framework in Frameworks */,
+				B60A2EA5170294CE0041DEE4 /* CoreVideo.framework in Frameworks */,
+				B60A2EA3170294C70041DEE4 /* AudioToolbox.framework in Frameworks */,
+				B60A2EA1170294A80041DEE4 /* AVFoundation.framework in Frameworks */,
+				B60A2E9F1702949F0041DEE4 /* libZXingWidget.a in Frameworks */,
+				B60A2E721702942F0041DEE4 /* UIKit.framework in Frameworks */,
+				B60A2E741702942F0041DEE4 /* Foundation.framework in Frameworks */,
+				B60A2E761702942F0041DEE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60A2E651702942F0041DEE4 = {
+			isa = PBXGroup;
+			children = (
+				B60A2E771702942F0041DEE4 /* ZXingDemo */,
+				B60A2E701702942F0041DEE4 /* Frameworks */,
+				B60A2E6F1702942F0041DEE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60A2E6F1702942F0041DEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60A2E6E1702942F0041DEE4 /* ZXingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60A2E701702942F0041DEE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65615361703DFB5009BEB75 /* AssetsLibrary.framework */,
+				B60A2EAC170294E50041DEE4 /* AddressBookUI.framework */,
+				B60A2EAA170294E00041DEE4 /* AddressBook.framework */,
+				B60A2EA8170294DB0041DEE4 /* libiconv.dylib */,
+				B60A2EA6170294D50041DEE4 /* CoreMedia.framework */,
+				B60A2EA4170294CE0041DEE4 /* CoreVideo.framework */,
+				B60A2EA2170294C70041DEE4 /* AudioToolbox.framework */,
+				B60A2EA0170294A80041DEE4 /* AVFoundation.framework */,
+				B60A2E711702942F0041DEE4 /* UIKit.framework */,
+				B60A2E731702942F0041DEE4 /* Foundation.framework */,
+				B60A2E751702942F0041DEE4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B60A2E771702942F0041DEE4 /* ZXingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B69EB4C917056DAD00F87022 /* ThirdParty */,
+				B60A2E94170294780041DEE4 /* ZXingWidget.xcodeproj */,
+				B60A2E801702942F0041DEE4 /* AppDelegate.h */,
+				B60A2E811702942F0041DEE4 /* AppDelegate.m */,
+				B60A2EB21702E7690041DEE4 /* CustomViewController.h */,
+				B60A2EB31702E7690041DEE4 /* CustomViewController.m */,
+				B60A2E89170294300041DEE4 /* ViewController.h */,
+				B60A2E8A170294300041DEE4 /* ViewController.mm */,
+				B60A2E8C170294300041DEE4 /* ViewController.xib */,
+				B60A2E781702942F0041DEE4 /* Supporting Files */,
+			);
+			path = ZXingDemo;
+			sourceTree = "<group>";
+		};
+		B60A2E781702942F0041DEE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60A2E791702942F0041DEE4 /* ZXingDemo-Info.plist */,
+				B60A2E7A1702942F0041DEE4 /* InfoPlist.strings */,
+				B60A2E7D1702942F0041DEE4 /* main.m */,
+				B60A2E7F1702942F0041DEE4 /* ZXingDemo-Prefix.pch */,
+				B60A2E831702942F0041DEE4 /* Default.png */,
+				B60A2E85170294300041DEE4 /* Default@2x.png */,
+				B60A2E87170294300041DEE4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60A2E95170294780041DEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60A2E9A170294790041DEE4 /* libZXingWidget.a */,
+				B60A2E9C170294790041DEE4 /* ZXingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69EB4C917056DAD00F87022 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B69EB4CA17056DAD00F87022 /* QRCodeEncoder */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B69EB4CA17056DAD00F87022 /* QRCodeEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				B69EB4F51705708C00F87022 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */,
+			);
+			path = QRCodeEncoder;
+			sourceTree = "<group>";
+		};
+		B69EB4F61705708C00F87022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69EB4FB1705708C00F87022 /* libqrencoder.a */,
+				B69EB4FD1705708C00F87022 /* QRCodeEncoderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60A2E6D1702942F0041DEE4 /* ZXingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A2E91170294300041DEE4 /* Build configuration list for PBXNativeTarget "ZXingDemo" */;
+			buildPhases = (
+				B60A2E6A1702942F0041DEE4 /* Sources */,
+				B60A2E6B1702942F0041DEE4 /* Frameworks */,
+				B60A2E6C1702942F0041DEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69EB4FF170570AD00F87022 /* PBXTargetDependency */,
+				B60A2E9E170294970041DEE4 /* PBXTargetDependency */,
+			);
+			name = ZXingDemo;
+			productName = ZXingDemo;
+			productReference = B60A2E6E1702942F0041DEE4 /* ZXingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60A2E661702942F0041DEE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Wei;
+			};
+			buildConfigurationList = B60A2E691702942F0041DEE4 /* Build configuration list for PBXProject "ZXingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B60A2E651702942F0041DEE4;
+			productRefGroup = B60A2E6F1702942F0041DEE4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B69EB4F61705708C00F87022 /* Products */;
+					ProjectRef = B69EB4F51705708C00F87022 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+				},
+				{
+					ProductGroup = B60A2E95170294780041DEE4 /* Products */;
+					ProjectRef = B60A2E94170294780041DEE4 /* ZXingWidget.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B60A2E6D1702942F0041DEE4 /* ZXingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B60A2E9A170294790041DEE4 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = B60A2E99170294790041DEE4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B60A2E9C170294790041DEE4 /* ZXingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZXingTests.octest;
+			remoteRef = B60A2E9B170294790041DEE4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B69EB4FB1705708C00F87022 /* libqrencoder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libqrencoder.a;
+			remoteRef = B69EB4FA1705708C00F87022 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B69EB4FD1705708C00F87022 /* QRCodeEncoderDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QRCodeEncoderDemo.app;
+			remoteRef = B69EB4FC1705708C00F87022 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60A2E6C1702942F0041DEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A2E7C1702942F0041DEE4 /* InfoPlist.strings in Resources */,
+				B60A2E841702942F0041DEE4 /* Default.png in Resources */,
+				B60A2E86170294300041DEE4 /* Default@2x.png in Resources */,
+				B60A2E88170294300041DEE4 /* Default-568h@2x.png in Resources */,
+				B60A2E8E170294300041DEE4 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60A2E6A1702942F0041DEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A2E7E1702942F0041DEE4 /* main.m in Sources */,
+				B60A2E821702942F0041DEE4 /* AppDelegate.m in Sources */,
+				B60A2E8B170294300041DEE4 /* ViewController.mm in Sources */,
+				B60A2EB41702E7690041DEE4 /* CustomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60A2E9E170294970041DEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidget;
+			targetProxy = B60A2E9D170294970041DEE4 /* PBXContainerItemProxy */;
+		};
+		B69EB4FF170570AD00F87022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = qrencoder;
+			targetProxy = B69EB4FE170570AD00F87022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B60A2E7A1702942F0041DEE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60A2E7B1702942F0041DEE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B60A2E8C170294300041DEE4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60A2E8D170294300041DEE4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60A2E8F170294300041DEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B60A2E90170294300041DEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60A2E92170294300041DEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingDemo/ZXingDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./zxing/iphone/ZXingWidget/Classes/**",
+					./zxing/cpp/core/src,
+					./ZXingDemo/ThirdParty/QRCodeEncoder/QRCodeEncoderObjectiveCAtGithub,
+				);
+				INFOPLIST_FILE = "ZXingDemo/ZXingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B60A2E93170294300041DEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZXingDemo/ZXingDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./zxing/iphone/ZXingWidget/Classes/**",
+					./zxing/cpp/core/src,
+					./ZXingDemo/ThirdParty/QRCodeEncoder/QRCodeEncoderObjectiveCAtGithub,
+				);
+				INFOPLIST_FILE = "ZXingDemo/ZXingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60A2E691702942F0041DEE4 /* Build configuration list for PBXProject "ZXingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A2E8F170294300041DEE4 /* Debug */,
+				B60A2E90170294300041DEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A2E91170294300041DEE4 /* Build configuration list for PBXNativeTarget "ZXingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A2E92170294300041DEE4 /* Debug */,
+				B60A2E93170294300041DEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60A2E661702942F0041DEE4 /* Project object */;
+}
