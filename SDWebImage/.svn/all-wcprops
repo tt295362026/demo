@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/47287/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage
+END
+MKAnnotationView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/MKAnnotationView+WebCache.h
+END
+SDWebImageDownloader.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/47287/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageDownloader.m
+END
+SDWebImageManagerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageManagerDelegate.h
+END
+SDWebImageDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/44764/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageDecoder.h
+END
+SDImageCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/46724/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDImageCache.h
+END
+MKAnnotationView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/MKAnnotationView+WebCache.m
+END
+SDWebImageManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/46724/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageManager.h
+END
+SDWebImageDecoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/45720/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageDecoder.m
+END
+SDImageCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDImageCache.m
+END
+UIButton+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/UIButton+WebCache.h
+END
+SDWebImageManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/46724/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageManager.m
+END
+UIImageView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/UIImageView+WebCache.h
+END
+SDWebImageCompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/44764/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageCompat.h
+END
+UIButton+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/UIButton+WebCache.m
+END
+UIImageView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/UIImageView+WebCache.m
+END
+SDWebImagePrefetcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/44764/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImagePrefetcher.h
+END
+SDWebImageDownloaderDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/45022/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageDownloaderDelegate.h
+END
+SDWebImagePrefetcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/46724/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImagePrefetcher.m
+END
+SDWebImageDownloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/46724/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDWebImageDownloader.h
+END
+SDImageCacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/44764/code/mobile/iOS/newNiupai/trunk/niupai/TridentCommonLib/ExternalLib/SDWebImage/SDImageCacheDelegate.h
+END
